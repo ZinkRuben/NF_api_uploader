@@ -44,7 +44,7 @@ def fix_amounts(amount, name):
                     "florets", "packet", "drizzle", "dash", "ancho (it's a bug)", "tbls", "ml", "Topping", "litre", "jar",
                     "pinch", "spinkling", "splash", "finely slices", "dusting", "parts (2 parts yeast)", "lb",
                     "juice of", "grated zest of", "to taste", "grated, to taste")
-    GR_list = ["g", "gramm", "gramms", "gr"]
+    GR_list = ["g", "gramm", "gramms", "gr"] # I'm 99% sure it's spelt "gram" not "gramm"
     #start to implement slices and pieces
     measurements_to_gram= {"slice":28, "clove":4.5}
 
